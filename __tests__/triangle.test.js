@@ -27,4 +27,8 @@ describe('Triangle', () => {
 		const triangle = new Triangle(3,4,5);
 		expect(triangle.isBigTriangle()).toEqual('big');
 	});
+	// test('should say if a triangle is little', () => {
+	// 	const triangle = new Triangle(2,4,1);
+	// 	expect(triangle.bigOrLittle()).toBeUndefined();
+	// });
 });
