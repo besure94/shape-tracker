@@ -23,4 +23,8 @@ describe('Triangle', () => {
 		const equilTriangle = new Triangle(7,7,7)
 		expect (equilTriangle.checkType()).toEqual("equilateral triangle");
 	});
+	test('should say if a triangle is big', () => {
+		const triangle = new Triangle(3,4,5);
+		expect(triangle.isBigTriangle()).toEqual('big');
+	});
 });
