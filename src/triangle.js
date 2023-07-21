@@ -15,3 +15,10 @@ Triangle.prototype.checkType = function() {
     return "isosceles triangle";
   }
 };
+
+Triangle.prototype.isBigTriangle = function() {
+	const sum = this.side1 + this.side2 + this.side3;
+	if(sum > 10) {
+		return 'big';
+	}
+}
